@@ -168,7 +168,7 @@ Explanation:
 3. Run the following command to discard changes made to the file in the working directory and restoring it to the state it was in at the last commit:
 
     ```bash
-    git restore second_text.txt
+    git restore first_text.txt
     ```
 
 4. Check the file using a text editor to confirm that the file changed to its original state.
@@ -186,7 +186,7 @@ Explanation:
 3. Suppose that you mistakenly added the file. To remove it from the staging area, run the following command:
 
     ```bash
-    git restore --stagged second_text.txt
+    git restore --staged second_text.txt
     ```
 
     Explanation:
